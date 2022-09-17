@@ -3,11 +3,11 @@ CREATE DATABASE muhely;
 USE muhely;
 
 CREATE TABLE szgk (
-	id INT PRIMARY KEY AUTO_INCREMENT, -- integer
-    tipus VARCHAR(20) DEFAULT 'Toyota',  -- rövid szöveges info
-    modell VARCHAR(20) NOT NULL,
-    rendszam VARCHAR(10) UNIQUE,
-    ajtok_szama INT CHECK (ajtok_szama < 6),
+    id INT PRIMARY KEY AUTO_INCREMENT, -- integer , elsődleges kulcs 
+    tipus VARCHAR(20) DEFAULT 'Toyota',  -- rövid szöveges info alapártelmezettem toyota
+    modell VARCHAR(20) NOT NULL,          -- nme lehet üres
+    rendszam VARCHAR(10) UNIQUE, 
+    ajtok_szama INT CHECK (ajtok_szama < 6),           -- az ajtoknak kisebbnek kell lenie mint 6 
     gyartas_eve DATE
 );
 
