@@ -11,3 +11,5 @@ CREATE TABLE szgk (
     gyartas_eve DATE
 );
 
+INSERT INTO szgk (id, tipus, modell, rendszam, ajtok_szama, gyartas_eve)
+VALUES (10, 'OPEL','Corsa','ABC123',4,'2002-10-04');
