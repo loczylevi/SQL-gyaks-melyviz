@@ -38,6 +38,4 @@ INSERT INTO szgk (id, tipus, modell, rendszam, ajtok_szama, gyartas_eve)
 VALUES(10, 'Opel', 'Corsa C', 'AAA123', 4, '2002-10-03'); 
 
 INSERT INTO autótulajdonosok (nev, telefonszám, születési_ido, id, azonnosito_szama, egyeb_infok)
-VALUES('Lóczy Lajos', 765757578, '2003-06-26', 19, 111, 'Szeretek aludni'); 
-
-  
+VALUES('Lóczy Lajos', 765757578, '2003-06-26', 10, 111, 'Szeretek aludni'); 
